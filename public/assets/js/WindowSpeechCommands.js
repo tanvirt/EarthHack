@@ -125,8 +125,8 @@ WindowSpeechCommands.addOpenRearWindowCommands = function() {
 		}
 	});
 	SpeechRecognition.addCommand({
-		'Close (back) right window': function(temp) {
-			console.log("close rear right window");
+		'Open (back) right window': function(temp) {
+			console.log("open rear right window");
 		}
 	});
 }
